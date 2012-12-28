@@ -5,8 +5,9 @@ import org.jukito.JukitoModule;
 import org.jukito.JukitoRunner;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import us.physion.ovation.api.DataContext;
+import us.physion.ovation.DataContext;
 import us.physion.ovation.api.DataStoreCoordinator;
+import us.physion.ovation.api.OvationApiModule;
 import us.physion.ovation.domain.User;
 
 import static org.junit.Assert.assertFalse;
@@ -19,7 +20,7 @@ public class UserAuthenticationTest {
 
         @Override
         protected void configureTest() {
-            //To change body of implemented methods use File | Settings | File Templates.
+            new OvationApiModule().configure(binder());
         }
     }
 
