@@ -15,8 +15,7 @@ import us.physion.ovation.api.DataStoreCoordinator;
 import us.physion.ovation.api.OvationApiModule;
 import us.physion.ovation.domain.Project;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 @RunWith(JukitoRunner.class)
 public class ProjectInsertionTest {
@@ -48,6 +47,10 @@ public class ProjectInsertionTest {
         server.deleteDatabase(db.path());
     }
 
+    /**
+     * As an authenticated user, when I insert a Project into a DataContext, the project should be
+     * persisted and retrievable.
+     */
     @Test
     public void should_insert_project() {
         DataContext ctx = dsc.getContext();
@@ -66,5 +69,28 @@ public class ProjectInsertionTest {
         assertEquals(start, actual.getStart());
 
         assertTrue(p == actual);
+    }
+
+    /**
+     * As an authenticated user, I should be able to insert multiple projects in a single transaction
+     */
+    @Test
+    public void should_insert_multiple_projects() {
+        DataContext ctx = dsc.getContext();
+        ctx.authenticateUser(USER_NAME, PASSWORD);
+
+        String name = "name";
+        String purpose = "purpose";
+        DateTime start = new DateTime();
+
+        ctx.beginTransaction();
+        Project p1 = ctx.insertProject(name, purpose, start);
+        Project p2 = ctx.insertProject(name, purpose, start);
+        ctx.commitTransaction();
+
+
+        assertNotNull(ctx.getObjectWithUuid(p1.getUuid()));
+        assertNotNull(ctx.getObjectWithUuid(p2.getUuid()));
+
     }
 }
