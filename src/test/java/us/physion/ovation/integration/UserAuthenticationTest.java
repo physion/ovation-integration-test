@@ -1,6 +1,8 @@
 package us.physion.ovation.integration;
 
 import com.google.inject.Inject;
+import org.ektorp.CouchDbConnector;
+import org.ektorp.CouchDbInstance;
 import org.jukito.JukitoModule;
 import org.jukito.JukitoRunner;
 import org.junit.After;
@@ -9,7 +11,6 @@ import org.junit.runner.RunWith;
 import us.physion.ovation.DataContext;
 import us.physion.ovation.api.DataStoreCoordinator;
 import us.physion.ovation.api.OvationApiModule;
-import us.physion.ovation.couch.api.UserDao;
 import us.physion.ovation.domain.User;
 
 import static org.junit.Assert.assertFalse;
@@ -32,12 +33,12 @@ public class UserAuthenticationTest
     @Inject
     DataStoreCoordinator dsc;
 
+
     @After
-    public void delete_users(UserDao dao)
+    public void clean_up(CouchDbInstance server,
+                         CouchDbConnector db)
     {
-        for (us.physion.ovation.couch.dto.User u : dao.getAll()) {
-            dao.remove(u);
-        }
+        server.deleteDatabase(db.path());
     }
 
     /**
