@@ -109,7 +109,10 @@ public class ExperimentInsertionTest {
         assertTrue(Iterables.contains(e.getProjects(), newProject));
 
         ctx.getProjectRepository().clear();
+        ctx.getExperimentRepository().clear();
         newProject = (Project) ctx.getObjectWithUuid(newProject.getUuid());
+        e = (Experiment) ctx.getObjectWithUuid(e.getUuid());
+
         assertTrue(Iterators.contains(newProject.getExperiments(), e));
     }
 
