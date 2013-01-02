@@ -16,6 +16,8 @@
       <directory url="file://$PROJECT_DIR$/../ovation-core/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/../ovation-api/target/generated-sources/annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/../ovation-api/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/target/generated-sources/annotations" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
     </excludeFromCompile>
     <resourceExtensions />
     <wildcardResourcePatterns>
@@ -33,6 +35,7 @@
         <module name="ovation-api" />
         <module name="ovation-core" />
         <module name="ovation-couch" />
+        <module name="ovation-integration-test" />
       </profile>
     </annotationProcessing>
   </component>
