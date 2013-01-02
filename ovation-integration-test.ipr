@@ -36,7 +36,14 @@
       </profile>
     </annotationProcessing>
   </component>
-  <component name="CopyrightManager" default="">
+  <component name="CopyrightManager" default="Physion">
+    <copyright>
+      <option name="notice" value="Copyright (c) &amp;#36;today.year. Physion Consulting LLC. All rights reserved." />
+      <option name="keyword" value="Copyright" />
+      <option name="allowReplaceKeyword" value="" />
+      <option name="myName" value="Physion" />
+      <option name="myLocal" value="true" />
+    </copyright>
     <module2copyright />
   </component>
   <component name="DependencyValidationManager">
@@ -252,7 +259,13 @@
       </option>
       <envs />
       <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>

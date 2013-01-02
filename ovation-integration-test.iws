@@ -1,26 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/domain/impl/Experiment.java" line="18" mnemonic="G" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9335ea5-4e4a-4f72-8090-876e47ae5678" name="Default" comment="ExperimentDao&#10;&#10;For some reason DateTimeZone serializes for Projects, but not for Experiments. Hm.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ovation-couch/src/main/java/us/physion/ovation/couch/dto/Experiment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ovation-couch/src/main/java/us/physion/ovation/couch/api/ExperimentDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ovation-couch/src/test/java/us/physion/ovation/couch/dao/ExperimentDaoTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ovation-couch/src/main/java/us/physion/ovation/couch/dao/StdExperimentDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ovation-couch/src/test/java/us/physion/ovation/couch/dao/DaoTestBase.java" afterPath="$PROJECT_DIR$/../ovation-couch/src/test/java/us/physion/ovation/couch/dao/DaoTestBase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ovation-couch/src/main/java/us/physion/ovation/couch/OvationCouchModule.java" afterPath="$PROJECT_DIR$/../ovation-couch/src/main/java/us/physion/ovation/couch/OvationCouchModule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ovation-couch/src/test/java/us/physion/ovation/couch/dao/ProjectDaoAnnotationsTest.java" afterPath="$PROJECT_DIR$/../ovation-couch/src/test/java/us/physion/ovation/couch/dao/ProjectDaoAnnotationsTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ovation-couch/src/test/java/us/physion/ovation/couch/dao/ProjectDaoTest.java" afterPath="$PROJECT_DIR$/../ovation-couch/src/test/java/us/physion/ovation/couch/dao/ProjectDaoTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ovation-api/ovation-api.iml" afterPath="$PROJECT_DIR$/../ovation-api/ovation-api.iml" />
+    <list default="true" id="e9335ea5-4e4a-4f72-8090-876e47ae5678" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/us/physion/ovation/integration/ExperimentInsertionTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/domain/impl/StdExperimentRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/DataContext.java" afterPath="$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/DataContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/domain/dao/ExperimentDao.java" afterPath="$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/domain/dao/ExperimentDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ovation-couch/src/test/java/us/physion/ovation/couch/dao/ExperimentDaoTest.java" afterPath="$PROJECT_DIR$/../ovation-couch/src/test/java/us/physion/ovation/couch/dao/ExperimentDaoTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/domain/repositories/ExperimentRepository.java" afterPath="$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/domain/repositories/ExperimentRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/OvationCoreModule.java" afterPath="$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/OvationCoreModule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ovation-api/src/main/java/us/physion/ovation/api/StdDataContext.java" afterPath="$PROJECT_DIR$/../ovation-api/src/main/java/us/physion/ovation/api/StdDataContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ovation-couch/src/main/java/us/physion/ovation/couch/dao/StdExperimentDao.java" afterPath="$PROJECT_DIR$/../ovation-couch/src/main/java/us/physion/ovation/couch/dao/StdExperimentDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/domain/impl/StdProjectFactory.java" afterPath="$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/domain/impl/StdProjectFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/domain/impl/StdProjectRepository.java" afterPath="$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/domain/impl/StdProjectRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ovation-integration-test.ipr" afterPath="$PROJECT_DIR$/ovation-integration-test.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ovation-integration-test.iws" afterPath="$PROJECT_DIR$/ovation-integration-test.iws" />
     </list>
     <ignored path="ovation-integration-test.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e9335ea5-4e4a-4f72-8090-876e47ae5678" time="1357155760708" ignored="false" />
+    <file path="/Dummy.txt" changelist="e9335ea5-4e4a-4f72-8090-876e47ae5678" time="1357159840647" ignored="false" />
     <file path="/pom.xml" changelist="e9335ea5-4e4a-4f72-8090-876e47ae5678" time="1356642129697" ignored="false" />
     <file path="/UserAuthenticationTest.java" changelist="e9335ea5-4e4a-4f72-8090-876e47ae5678" time="1356643840365" ignored="false" />
     <file path="/StdDataContextTest.java" changelist="e9335ea5-4e4a-4f72-8090-876e47ae5678" time="1356642398143" ignored="false" />
-    <file path="/StdDataContext.java" changelist="e9335ea5-4e4a-4f72-8090-876e47ae5678" time="1356642451860" ignored="false" />
+    <file path="/StdDataContext.java" changelist="e9335ea5-4e4a-4f72-8090-876e47ae5678" time="1357161781066" ignored="false" />
     <file path="/EntityRepository.java" changelist="e9335ea5-4e4a-4f72-8090-876e47ae5678" time="1356642485124" ignored="false" />
     <file path="/StdUserRepository.java" changelist="e9335ea5-4e4a-4f72-8090-876e47ae5678" time="1356642526668" ignored="false" />
     <file path="/EntityDAOBase.java" changelist="e9335ea5-4e4a-4f72-8090-876e47ae5678" time="1356642523432" ignored="false" />
@@ -28,11 +33,21 @@
     <file path="/InMemoryExperimentRepository.java" changelist="e9335ea5-4e4a-4f72-8090-876e47ae5678" time="1356643465502" ignored="false" />
     <file path="/StdUserDao.java" changelist="e9335ea5-4e4a-4f72-8090-876e47ae5678" time="1356642728917" ignored="false" />
     <file path="/UserDaoTest.java" changelist="e9335ea5-4e4a-4f72-8090-876e47ae5678" time="1356643315237" ignored="false" />
-    <file path="/fragment.java" changelist="e9335ea5-4e4a-4f72-8090-876e47ae5678" time="1357155140315" ignored="false" />
+    <file path="/fragment.java" changelist="e9335ea5-4e4a-4f72-8090-876e47ae5678" time="1357161749865" ignored="false" />
     <file path="/StdDataStoreCoordinator.java" changelist="e9335ea5-4e4a-4f72-8090-876e47ae5678" time="1356643898998" ignored="false" />
     <file path="/DataStoreCoordinator.java" changelist="e9335ea5-4e4a-4f72-8090-876e47ae5678" time="1356643908388" ignored="false" />
-    <file path="/StdExperimentDao.java" changelist="e9335ea5-4e4a-4f72-8090-876e47ae5678" time="1357155052667" ignored="false" />
-    <file path="/Experiment.java" changelist="e9335ea5-4e4a-4f72-8090-876e47ae5678" time="1357155737090" ignored="false" />
+    <file path="/StdExperimentDao.java" changelist="e9335ea5-4e4a-4f72-8090-876e47ae5678" time="1357158996817" ignored="false" />
+    <file path="/Experiment.java" changelist="e9335ea5-4e4a-4f72-8090-876e47ae5678" time="1357160116615" ignored="false" />
+    <file path="/ExperimentRepository.java" changelist="e9335ea5-4e4a-4f72-8090-876e47ae5678" time="1357158340062" ignored="false" />
+    <file path="/OvationCoreModule.java" changelist="e9335ea5-4e4a-4f72-8090-876e47ae5678" time="1357160408633" ignored="false" />
+    <file path="/StdExperimentRepository.java" changelist="e9335ea5-4e4a-4f72-8090-876e47ae5678" time="1357161496916" ignored="false" />
+    <file path="/ExperimentDao.java" changelist="e9335ea5-4e4a-4f72-8090-876e47ae5678" time="1357158430225" ignored="false" />
+    <file path="/ExperimentDaoTest.java" changelist="e9335ea5-4e4a-4f72-8090-876e47ae5678" time="1357158612929" ignored="false" />
+    <file path="/Types.java" changelist="e9335ea5-4e4a-4f72-8090-876e47ae5678" time="1357158991960" ignored="false" />
+    <file path="/ExperimentInsertionTest.java" changelist="e9335ea5-4e4a-4f72-8090-876e47ae5678" time="1357161914783" ignored="false" />
+    <file path="/StdProjectRepository.java" changelist="e9335ea5-4e4a-4f72-8090-876e47ae5678" time="1357161831906" ignored="false" />
+    <file path="/StdProjectFactory.java" changelist="e9335ea5-4e4a-4f72-8090-876e47ae5678" time="1357161149483" ignored="false" />
+    <file path="/DataContext.java" changelist="e9335ea5-4e4a-4f72-8090-876e47ae5678" time="1357160518644" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,24 +135,8 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <field_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/../ovation-couch/src/test/java/us/physion/ovation/couch/dao/ExperimentDaoTest.java" line="44" class="us.physion.ovation.couch.dao.ExperimentDaoTest" package="us.physion.ovation.couch.dao">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
       <breakpoint url="file://$PROJECT_DIR$/../ovation-couch/src/test/java/us/physion/ovation/couch/dao/ExperimentDaoTest.java" line="2" class="ExperimentDaoTest.java" package="">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
@@ -152,7 +151,36 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/../ovation-couch/src/test/java/us/physion/ovation/couch/dao/ExperimentDaoTest.java" line="151" class="us.physion.ovation.couch.dao.ExperimentDaoTest" package="us.physion.ovation.couch.dao">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/test/java/us/physion/ovation/integration/ExperimentInsertionTest.java" line="145" class="us.physion.ovation.integration.ExperimentInsertionTest" package="us.physion.ovation.integration">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
     </line_breakpoints>
+    <field_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <exception_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
@@ -188,6 +216,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -254,72 +283,58 @@
     <favorites_list name="ovation-integration-test" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.4975261">
       <split-first>
         <leaf>
-          <file leaf-file-name="UserAuthenticationTest.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/us/physion/ovation/integration/UserAuthenticationTest.java">
+          <file leaf-file-name="Project.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/domain/impl/Project.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="25" column="11" selection-start="694" selection-end="694" vertical-scroll-proportion="0.0">
+                <state line="93" column="0" selection-start="3212" selection-end="3212" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="DataStoreCoordinator.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../ovation-api/src/main/java/us/physion/ovation/api/DataStoreCoordinator.java">
+          <file leaf-file-name="StdProjectRepository.java" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/domain/impl/StdProjectRepository.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="0" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0">
+                <state line="40" column="133" selection-start="1764" selection-end="1764" vertical-scroll-proportion="0.25940996">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="DataContext.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/DataContext.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="36" column="12" selection-start="998" selection-end="998" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ProjectRepository.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/domain/repositories/ProjectRepository.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="13" column="0" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
           <file leaf-file-name="Experiment.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/domain/Experiment.java">
+            <entry file="file://$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/domain/impl/Experiment.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="27" column="17" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.0">
+                <state line="22" column="41" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ExperimentDaoTest.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../ovation-couch/src/test/java/us/physion/ovation/couch/dao/ExperimentDaoTest.java">
+          <file leaf-file-name="StdExperimentFactory.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/domain/impl/StdExperimentFactory.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="24" column="53" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Experiment.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../ovation-couch/src/main/java/us/physion/ovation/couch/dto/Experiment.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="113" column="31" selection-start="4384" selection-end="4384" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <element signature="e#1055#1085#0" expanded="true" />
-                    <element signature="e#4357#4384#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DaoTestBase.java" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/../ovation-couch/src/test/java/us/physion/ovation/couch/dao/DaoTestBase.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="102" column="29" selection-start="3959" selection-end="3959" vertical-scroll-proportion="0.33293125">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../ovation-couch/pom.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="177" column="21" selection-start="5880" selection-end="5880" vertical-scroll-proportion="-15.0">
+                <state line="23" column="28" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -328,10 +343,26 @@
           <file leaf-file-name="StdExperimentDao.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/../ovation-couch/src/main/java/us/physion/ovation/couch/dao/StdExperimentDao.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="31" column="15" selection-start="1078" selection-end="1078" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <element signature="imports" expanded="false" />
-                  </folding>
+                <state line="19" column="34" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ProjectInsertionTest.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/us/physion/ovation/integration/ProjectInsertionTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="63" column="70" selection-start="1549" selection-end="1876" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Types.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/util/Types.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="14" column="35" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -349,43 +380,98 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="StdExperimentDao.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../ovation-couch/src/main/java/us/physion/ovation/couch/dao/StdExperimentDao.java">
+          <file leaf-file-name="StdExperimentRepository.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/domain/impl/StdExperimentRepository.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="32" column="35" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.0">
+                <state line="72" column="29" selection-start="3105" selection-end="3105" vertical-scroll-proportion="0.0">
                   <folding>
-                    <element signature="imports" expanded="false" />
+                    <element signature="e#2680#3093#0" expanded="true" />
+                    <element signature="e#3074#3075#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ExperimentDao.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/domain/dao/ExperimentDao.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="11" column="25" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="StdDataContext.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../ovation-api/src/main/java/us/physion/ovation/api/StdDataContext.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="106" column="41" selection-start="4235" selection-end="4235" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ExperimentInsertionTest.java" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/us/physion/ovation/integration/ExperimentInsertionTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="113" column="55" selection-start="3544" selection-end="3544" vertical-scroll-proportion="0.3634538">
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
           <file leaf-file-name="Project.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../ovation-couch/src/main/java/us/physion/ovation/couch/dto/Project.java">
+            <entry file="file://$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/domain/Project.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="106" column="19" selection-start="3944" selection-end="3944" vertical-scroll-proportion="0.0">
+                <state line="36" column="9" selection-start="1375" selection-end="1375" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ProjectDaoTest.java" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/../ovation-couch/src/test/java/us/physion/ovation/couch/dao/ProjectDaoTest.java">
+          <file leaf-file-name="OvationCouchModule.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../ovation-couch/src/main/java/us/physion/ovation/couch/OvationCouchModule.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="24" column="13" selection-start="785" selection-end="785" vertical-scroll-proportion="0.089073636">
+                <state line="63" column="11" selection-start="2672" selection-end="2672" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="StdDaoBase.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../ovation-couch/src/main/java/us/physion/ovation/couch/dao/StdDaoBase.java">
+          <file leaf-file-name="ProjectFactory.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/domain/factories/ProjectFactory.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="25" column="22" selection-start="800" selection-end="800" vertical-scroll-proportion="0.0">
+                <state line="24" column="19" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="StdProjectFactory.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/domain/impl/StdProjectFactory.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="54" column="0" selection-start="2073" selection-end="2073" vertical-scroll-proportion="0.0">
                   <folding>
-                    <element signature="e#2106#2365#0" expanded="true" />
-                    <element signature="e#2346#2347#0" expanded="true" />
+                    <element signature="e#1372#2416#0" expanded="true" />
+                    <element signature="e#2405#2406#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="StdDataContextTest.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../ovation-api/src/test/java/us/physion/ovation/api/test/StdDataContextTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="32" column="13" selection-start="1332" selection-end="1332" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TransactionUtilities.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/util/TransactionUtilities.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="44" column="24" selection-start="1289" selection-end="1289" vertical-scroll-proportion="0.0">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -400,7 +486,7 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../ovation-couch" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLogSettings">
     <option name="myDateState">
@@ -415,22 +501,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/../ovation-core/src/test/java/us/physion/ovation/domain/test/repositories/impl/InMemoryExperimentRepository.java" />
-        <option value="$PROJECT_DIR$/../ovation-core/src/test/java/us/physion/ovation/domain/test/repositories/impl/InMemoryProjectRepository.java" />
-        <option value="$PROJECT_DIR$/../ovation-core/src/test/java/us/physion/ovation/domain/test/repositories/impl/InMemoryUserRepository.java" />
-        <option value="$PROJECT_DIR$/../ovation-couch/src/main/java/us/physion/ovation/couch/dao/StdUserDao.java" />
-        <option value="$PROJECT_DIR$/../ovation-api/src/test/java/us/physion/ovation/api/test/InMemoryExperimentRepository.java" />
-        <option value="$PROJECT_DIR$/../ovation-api/src/test/java/us/physion/ovation/api/test/InMemoryProjectRepository.java" />
-        <option value="$PROJECT_DIR$/../ovation-api/src/test/java/us/physion/ovation/api/test/InMemoryUserRepository.java" />
-        <option value="$PROJECT_DIR$/../ovation-couch/src/test/java/us/physion/ovation/couch/dao/UserDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/us/physion/ovation/integration/UserAuthenticationTest.java" />
-        <option value="$PROJECT_DIR$/../ovation-api/src/main/java/us/physion/ovation/api/StdDataStoreCoordinator.java" />
-        <option value="$PROJECT_DIR$/../ovation-api/src/main/java/us/physion/ovation/api/DataStoreCoordinator.java" />
         <option value="$PROJECT_DIR$/../ovation-couch/src/test/java/us/physion/ovation/couch/dao/ProjectDaoAnnotationsTest.java" />
-        <option value="$PROJECT_DIR$/../ovation-couch/src/main/java/us/physion/ovation/couch/dao/StdExperimentDao.java" />
-        <option value="$PROJECT_DIR$/../ovation-couch/src/test/java/us/physion/ovation/couch/dao/ExperimentDaoTest.java" />
         <option value="$PROJECT_DIR$/../ovation-couch/src/main/java/us/physion/ovation/couch/dto/Experiment.java" />
         <option value="$PROJECT_DIR$/../ovation-couch/src/test/java/us/physion/ovation/couch/dao/DaoTestBase.java" />
+        <option value="$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/domain/repositories/ExperimentRepository.java" />
+        <option value="$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/domain/dao/ExperimentDao.java" />
+        <option value="$PROJECT_DIR$/../ovation-couch/src/test/java/us/physion/ovation/couch/dao/ExperimentDaoTest.java" />
+        <option value="$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/util/Types.java" />
+        <option value="$PROJECT_DIR$/../ovation-couch/src/main/java/us/physion/ovation/couch/dao/StdExperimentDao.java" />
+        <option value="$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/domain/impl/Experiment.java" />
+        <option value="$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/OvationCoreModule.java" />
+        <option value="$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/DataContext.java" />
+        <option value="$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/domain/impl/StdProjectFactory.java" />
+        <option value="$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/domain/impl/StdExperimentRepository.java" />
+        <option value="$PROJECT_DIR$/../ovation-api/src/main/java/us/physion/ovation/api/StdDataContext.java" />
+        <option value="$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/domain/impl/StdProjectRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/us/physion/ovation/integration/ExperimentInsertionTest.java" />
       </list>
     </option>
   </component>
@@ -463,6 +549,24 @@
           <option name="myItemId" value="" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="ovation-integration-test" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="ovation-integration-test" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
       </PATH>
       <PATH>
         <PATH_ELEMENT>
@@ -486,6 +590,36 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="Lifecycle" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="ovation-core" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="ovation-core" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
       </PATH>
     </treeState>
@@ -535,7 +669,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="PackagesPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -547,14 +681,269 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="ovation-integration-test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovation-integration-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovation-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovation-integration-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovation-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovation-integration-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovation-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovation-integration-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovation-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovation-integration-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovation-integration-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovation-integration-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovation-integration-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="us.physion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovation.integration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovation-integration-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovation-couch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovation-integration-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovation-couch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="us.physion.ovation.couch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovation-integration-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovation-couch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="us.physion.ovation.couch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovation-integration-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovation-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovation-integration-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovation-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="us.physion.ovation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovation-integration-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovation-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="us.physion.ovation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovation-integration-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovation-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="us.physion.ovation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="repositories" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovation-integration-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovation-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="us.physion.ovation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovation-integration-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovation-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="us.physion.ovation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="factories" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovation-integration-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -576,7 +965,7 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="copyright" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ovation-api/pom.xml" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -591,7 +980,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="JUnit.ExperimentDaoTest">
+  <component name="RunManager" selected="JUnit.Integration Tests">
     <configuration default="false" name="StdDataContextTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="ovation-api" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -686,6 +1075,34 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="ExperimentDaoTest.should_get_experiments_for_project" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="ovation-couch" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="us.physion.ovation.couch.dao" />
+      <option name="MAIN_CLASS_NAME" value="us.physion.ovation.couch.dao.ExperimentDaoTest" />
+      <option name="METHOD_NAME" value="should_get_experiments_for_project" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -762,19 +1179,21 @@
       <patterns />
       <method />
     </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JUnit.Integration Tests" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.StdDataContextTest" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.UserDaoTest" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.ExperimentDaoTest" />
       <item index="4" class="java.lang.String" itemvalue="JUnit.ProjectDaoTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.ExperimentDaoTest.should_get_experiments_for_project" />
     </list>
     <recent_temporary>
-      <list size="4">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.ExperimentDaoTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ProjectDaoTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.UserDaoTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.StdDataContextTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ExperimentDaoTest.should_get_experiments_for_project" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ProjectDaoTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.UserDaoTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.StdDataContextTest" />
       </list>
     </recent_temporary>
   </component>
@@ -820,7 +1239,11 @@
       <created>1356643951265</created>
       <updated>1356643951265</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ExperimentDao&#10;&#10;For some reason DateTimeZone serializes for Projects, but not for Experiments. Hm.">
+      <created>1357155791554</created>
+      <updated>1357155791554</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -848,12 +1271,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32973805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1633282" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0903862" sideWeight="0.6702619" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25020543" sideWeight="0.6702619" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.09202958" sideWeight="0.78890604" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16064093" sideWeight="0.78890604" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21109399" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Aspects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -983,124 +1406,120 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../ovation-couch/src/test/java/us/physion/ovation/couch/dao/UserDaoTest.java">
+    <entry file="file://$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/domain/factories/ProjectFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="0" selection-start="3756" selection-end="3756" vertical-scroll-proportion="0.0">
+        <state line="24" column="19" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ovation-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="29" selection-start="1637" selection-end="1637" vertical-scroll-proportion="-25.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/util/TransactionUtilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="24" selection-start="1289" selection-end="1289" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="43" selection-start="788" selection-end="788" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../ovation-api/src/test/java/us/physion/ovation/api/test/StdDataContextTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="13" selection-start="902" selection-end="902" vertical-scroll-proportion="0.0">
+        <state line="32" column="13" selection-start="1332" selection-end="1332" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/us/physion/ovation/integration/UserAuthenticationTest.java">
+    <entry file="file://$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/domain/impl/StdProjectFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="11" selection-start="694" selection-end="694" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ovation-api/src/main/java/us/physion/ovation/api/StdDataStoreCoordinator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="29" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ovation-api/src/main/java/us/physion/ovation/api/DataStoreCoordinator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/domain/Experiment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="17" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ovation-couch/src/main/java/us/physion/ovation/couch/dao/StdDaoBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="22" selection-start="800" selection-end="800" vertical-scroll-proportion="0.0">
+        <state line="54" column="0" selection-start="2073" selection-end="2073" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#2106#2365#0" expanded="true" />
-            <element signature="e#2346#2347#0" expanded="true" />
+            <element signature="e#1372#2416#0" expanded="true" />
+            <element signature="e#2405#2406#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ovation-couch/src/test/java/us/physion/ovation/couch/dao/ExperimentDaoTest.java">
+    <entry file="file://$PROJECT_DIR$/../ovation-api/src/main/java/us/physion/ovation/api/OvationApiModule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="53" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0">
+        <state line="19" column="26" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/domain/dao/ExperimentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="25" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/domain/impl/StdExperimentRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="29" selection-start="3105" selection-end="3105" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2680#3093#0" expanded="true" />
+            <element signature="e#3074#3075#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ovation-couch/src/main/java/us/physion/ovation/couch/dao/StdProjectDao.java">
+    <entry file="file://$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/DataContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="22" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.0">
+        <state line="36" column="12" selection-start="998" selection-end="998" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ovation-couch/src/main/java/us/physion/ovation/couch/dao/StdExperimentDao.java">
+    <entry file="file://$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/domain/Project.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="15" selection-start="1078" selection-end="1078" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ovation-couch/src/test/java/us/physion/ovation/couch/dao/ProjectDaoAnnotationsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="58" selection-start="1631" selection-end="1631" vertical-scroll-proportion="0.19300362">
+        <state line="36" column="9" selection-start="1375" selection-end="1375" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ovation-couch/src/main/java/us/physion/ovation/couch/dto/Project.java">
+    <entry file="file://$PROJECT_DIR$/../ovation-api/src/main/java/us/physion/ovation/api/StdDataContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="19" selection-start="3944" selection-end="3944" vertical-scroll-proportion="0.0">
+        <state line="106" column="41" selection-start="4235" selection-end="4235" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ovation-couch/src/test/java/us/physion/ovation/couch/dao/ProjectDaoTest.java">
+    <entry file="file://$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/domain/impl/Project.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="13" selection-start="785" selection-end="785" vertical-scroll-proportion="0.089073636">
+        <state line="93" column="0" selection-start="3212" selection-end="3212" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ovation-couch/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/OvationCoreModule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="177" column="21" selection-start="5880" selection-end="5880" vertical-scroll-proportion="-15.0">
+        <state line="46" column="0" selection-start="2240" selection-end="2240" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ovation-couch/src/main/java/us/physion/ovation/couch/dto/Experiment.java">
+    <entry file="file://$PROJECT_DIR$/../ovation-core/src/main/java/us/physion/ovation/domain/impl/StdProjectRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="31" selection-start="4384" selection-end="4384" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#1055#1085#0" expanded="true" />
-            <element signature="e#4357#4384#0" expanded="true" />
-          </folding>
+        <state line="40" column="133" selection-start="1764" selection-end="1764" vertical-scroll-proportion="0.25940996">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ovation-couch/src/test/java/us/physion/ovation/couch/dao/DaoTestBase.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/us/physion/ovation/integration/ExperimentInsertionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="29" selection-start="3959" selection-end="3959" vertical-scroll-proportion="0.33293125">
+        <state line="113" column="55" selection-start="3544" selection-end="3544" vertical-scroll-proportion="0.3634538">
           <folding />
         </state>
       </provider>
@@ -1111,6 +1530,18 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <last-edited>Physion</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
