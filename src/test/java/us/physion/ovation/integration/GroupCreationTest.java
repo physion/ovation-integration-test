@@ -6,6 +6,7 @@ import org.jukito.JukitoModule;
 import org.jukito.JukitoRunner;
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import us.physion.ovation.DataContext;
@@ -51,6 +52,7 @@ public class GroupCreationTest {
      * As an authenticated user, I should be able to create write groups.
      */
     @Test
+    @Ignore
     public void should_create_write_groups(GroupFactory groupFactory) {
         DataContext ctx = dsc.getContext();
         ctx.authenticateUser(USER_NAME, PASSWORD);
