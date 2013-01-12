@@ -4,6 +4,7 @@
 
 package us.physion.ovation.integration;
 
+import com.google.common.base.Function;
 import com.google.common.collect.Iterables;
 import com.google.common.collect.Iterators;
 import com.google.inject.Inject;
@@ -22,19 +23,24 @@ import us.physion.ovation.api.OvationApiModule;
 import us.physion.ovation.domain.Experiment;
 import us.physion.ovation.domain.Project;
 
+import javax.annotation.Nullable;
+
 import static org.junit.Assert.*;
 
 @RunWith(JukitoRunner.class)
-public class ExperimentInsertionTest {
+public class ExperimentInsertionTest
+{
 
     private static final String USER_NAME = "user";
     private static final String EMAIL = "email@email.com";
     private static final char[] PASSWORD = "password".toCharArray();
 
-    public static class Module extends JukitoModule {
+    public static class Module extends JukitoModule
+    {
 
         @Override
-        protected void configureTest() {
+        protected void configureTest()
+        {
             new OvationApiModule().configure(binder());
         }
     }
@@ -43,14 +49,16 @@ public class ExperimentInsertionTest {
     DataStoreCoordinator dsc;
 
     @Before
-    public void create_user() {
+    public void create_user()
+    {
         DataContext ctx = dsc.getContext();
         ctx.addUser(USER_NAME, EMAIL, PASSWORD);
     }
 
     @After
     public void clean_up(CouchDbInstance server,
-                         CouchDbConnector db) {
+                         CouchDbConnector db)
+    {
         server.deleteDatabase(db.path());
     }
 
@@ -59,7 +67,8 @@ public class ExperimentInsertionTest {
      * be persisted and retrievable (bi-directionally).
      */
     @Test
-    public void should_insert_experiment() {
+    public void should_insert_experiment()
+    {
         DataContext ctx = dsc.getContext();
         ctx.authenticateUser(USER_NAME, PASSWORD);
 
@@ -87,7 +96,8 @@ public class ExperimentInsertionTest {
      */
 
     @Test
-    public void should_add_experiment_to_project() {
+    public void should_add_experiment_to_project()
+    {
         DataContext ctx = dsc.getContext();
         ctx.authenticateUser(USER_NAME, PASSWORD);
 
@@ -113,7 +123,16 @@ public class ExperimentInsertionTest {
         newProject = (Project) ctx.getObjectWithUuid(newProject.getUuid());
         e = (Experiment) ctx.getObjectWithUuid(e.getUuid());
 
-        assertTrue(Iterators.contains(newProject.getExperiments(), e));
+        assertTrue(Iterators.contains(Iterators.transform(newProject.getExperiments(),
+                                                          new Function<Experiment, Object>()
+                                                          {
+                                                              @Nullable
+                                                              @Override
+                                                              public Object apply(@Nullable Experiment experiment)
+                                                              {
+                                                                  return experiment == null ? null : experiment.getUuid();
+                                                              }
+                                                          }), e.getUuid()));
     }
 
     /**
@@ -121,7 +140,8 @@ public class ExperimentInsertionTest {
      * from that project
      */
     @Test
-    public void should_remove_experiment_from_project() {
+    public void should_remove_experiment_from_project()
+    {
         DataContext ctx = dsc.getContext();
         ctx.authenticateUser(USER_NAME, PASSWORD);
 
@@ -138,6 +158,14 @@ public class ExperimentInsertionTest {
         newProject.addExperiment(e);
 
         p.removeExperiment(e);
+
+
+        assertFalse(Iterables.contains(e.getProjects(), p));
+        assertFalse(Iterators.contains(p.getExperiments(), e));
+
+
+        assertTrue(Iterables.contains(e.getProjects(), newProject));
+        assertTrue(Iterators.contains(newProject.getExperiments(), e));
 
         ctx.getProjectRepository().clear();
         ctx.getExperimentRepository().clear();
