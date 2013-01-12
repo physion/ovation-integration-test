@@ -34,6 +34,7 @@ public class ProjectInsertionAndRetrievalPerfTest extends IntegrationTestBase
         }
     }
 
+    /* ** This just takes too long ** (~20s/run)
     @Test
     @BenchmarkOptions(benchmarkRounds = 5, warmupRounds = 0)
     public void individual_entity_insertion_performance_benchmark()
@@ -48,6 +49,7 @@ public class ProjectInsertionAndRetrievalPerfTest extends IntegrationTestBase
             Project p = ctx.insertProject(name, purpose, start);
         }
     }
+    */
 
     @Test
     @BenchmarkOptions(benchmarkRounds = 5, warmupRounds = 0)
