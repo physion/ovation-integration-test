@@ -45,6 +45,7 @@ public class UserRefreshTest extends IntegrationTestBase
         User u2 = (User) ctx2.getObjectWithURI(userUri.toString());
         final String newEmail = "new@test.com";
         u2.updateEmail(newEmail);
+        assertEquals(newEmail, u2.getEmail());
 
         u.refresh(true);
 
