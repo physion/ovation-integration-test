@@ -107,13 +107,6 @@ public class ExperimentInsertionTest {
         assertTrue(Iterators.contains(p.getExperiments(), e));
 
         assertTrue(Iterables.contains(e.getProjects(), newProject));
-
-        ctx.getProjectRepository().clear();
-        ctx.getExperimentRepository().clear();
-        newProject = (Project) ctx.getObjectWithUuid(newProject.getUuid());
-        e = (Experiment) ctx.getObjectWithUuid(e.getUuid());
-
-        assertTrue(Iterators.contains(newProject.getExperiments(), e));
     }
 
     /**
@@ -139,16 +132,7 @@ public class ExperimentInsertionTest {
 
         p.removeExperiment(e);
 
-        ctx.getProjectRepository().clear();
-        ctx.getExperimentRepository().clear();
-
-        p = (Project) ctx.getObjectWithUuid(p.getUuid());
-        e = (Experiment) ctx.getObjectWithUuid(e.getUuid());
-
         assertFalse(Iterables.contains(e.getProjects(), p));
         assertFalse(Iterators.contains(p.getExperiments(), e));
-
-        assertTrue(Iterables.contains(e.getProjects(), newProject));
-        assertTrue(Iterators.contains(newProject.getExperiments(), e));
     }
 }
