@@ -50,7 +50,7 @@ public class ProjectInsertionPerfTest extends IntegrationTestBase
 
 
     @Test
-    @BenchmarkOptions(benchmarkRounds = 5, warmupRounds = 0)
+    @BenchmarkOptions(benchmarkRounds = 5, warmupRounds = 2)
     public void bulk_entity_insertion_performance_benchmark()
     {
         DataContext ctx = dsc.getContext();
