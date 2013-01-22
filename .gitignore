@@ -5,3 +5,4 @@
 *.war
 *.ear
 target
+ovation-integration-test.iml
