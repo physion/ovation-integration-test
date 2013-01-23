@@ -13,21 +13,17 @@ import java.net.URI;
 import static org.junit.Assert.assertEquals;
 
 @RunWith(JukitoRunner.class)
-public class UserRefreshTest extends IntegrationTestBase
-{
-    public static class Module extends JukitoModule
-    {
+public class UserRefreshTest extends IntegrationTestBase {
+    public static class Module extends JukitoModule {
 
         @Override
-        protected void configureTest()
-        {
+        protected void configureTest() {
             new OvationApiModule().configure(binder());
         }
     }
 
     @Test
-    public void should_refresh_password_from_separate_context() throws InterruptedException
-    {
+    public void should_refresh_password_from_separate_context() throws InterruptedException {
         DataContext ctx = dsc.getContext();
         ctx.authenticateUser(USER_NAME, PASSWORD);
 
@@ -47,7 +43,7 @@ public class UserRefreshTest extends IntegrationTestBase
         u2.updateEmail(newEmail);
         assertEquals(newEmail, u2.getEmail());
 
-        u.refresh(true);
+        u.refresh();
 
         assertEquals(newEmail, u.getEmail());
     }
