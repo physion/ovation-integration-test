@@ -18,25 +18,21 @@ import java.util.Set;
 import java.util.UUID;
 
 @RunWith(JukitoRunner.class)
-public class ProjectRetrievalPerfTest extends IntegrationTestBase
-{
+public class ProjectRetrievalPerfTest extends IntegrationTestBase {
     @Rule
     public MethodRule benchmarkRun = new BenchmarkRule();
 
-    public static class Module extends JukitoModule
-    {
+    public static class Module extends JukitoModule {
 
         @Override
-        protected void configureTest()
-        {
+        protected void configureTest() {
             new OvationApiModule().configure(binder());
         }
     }
 
     @Test
     @BenchmarkOptions(benchmarkRounds = 5, warmupRounds = 0)
-    public void individual_cached_entity_retrieval_performance_benchmark()
-    {
+    public void individual_cached_entity_retrieval_performance_benchmark() {
         DataContext ctx = dsc.getContext();
         ctx.authenticateUser(USER_NAME, PASSWORD);
 
@@ -59,10 +55,10 @@ public class ProjectRetrievalPerfTest extends IntegrationTestBase
         }
     }
 
+
     @Test
-    @BenchmarkOptions(benchmarkRounds = 5, warmupRounds = 0)
-    public void individual_uncached_entity_retrieval_performance_benchmark()
-    {
+    @BenchmarkOptions(benchmarkRounds = 1, warmupRounds = 0)
+    public void individual_uncached_entity_retrieval_performance_benchmark() {
         DataContext ctx = dsc.getContext();
         ctx.authenticateUser(USER_NAME, PASSWORD);
 
@@ -85,5 +81,6 @@ public class ProjectRetrievalPerfTest extends IntegrationTestBase
         for (UUID uuid : uuidSet) {
             ctx.getObjectWithUuid(uuid);
         }
+
     }
 }
