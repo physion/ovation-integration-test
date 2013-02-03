@@ -19,11 +19,14 @@ import static org.junit.Assert.assertThat;
 import static org.junit.matchers.JUnitMatchers.hasItem;
 
 @RunWith(JukitoRunner.class)
-public class AnnotationRoundTripTest extends IntegrationTestBase {
-    public static class Module extends JukitoModule {
+public class AnnotationRoundTripTest extends IntegrationTestBase
+{
+    public static class Module extends JukitoModule
+    {
 
         @Override
-        protected void configureTest() {
+        protected void configureTest()
+        {
             new OvationApiModule().configure(binder());
         }
     }
@@ -33,7 +36,8 @@ public class AnnotationRoundTripTest extends IntegrationTestBase {
      * and retrievable by my user.
      */
     @Test
-    public void should_add_tags() throws InterruptedException {
+    public void should_add_tags() throws InterruptedException
+    {
         DataContext ctx = dsc.getContext(USER_UUID, PASSWORD);
 
         String name = "name";
@@ -45,11 +49,11 @@ public class AnnotationRoundTripTest extends IntegrationTestBase {
         p.addTag(tag1);
 
         UUID projectUuid = p.getUuid();
-        ctx.getProjectRepository().clear();
 
-        Project actual = (Project) ctx.getObjectWithUuid(projectUuid);
+        DataContext verifyContext = dsc.getContext(USER_UUID, PASSWORD);
+        Project actual = (Project) verifyContext.getObjectWithUuid(projectUuid);
 
-        assertThat(actual.getUserTags(ctx.getAuthenticatedUser()), hasItem(tag1));
+        assertThat(actual.getUserTags(verifyContext.getAuthenticatedUser()), hasItem(tag1));
     }
 
     /**
@@ -57,7 +61,8 @@ public class AnnotationRoundTripTest extends IntegrationTestBase {
      * persisted, and retrievable by my user.
      */
     @Test
-    public void should_add_properties() {
+    public void should_add_properties() throws InterruptedException
+    {
         DataContext ctx = dsc.getContext(USER_UUID, PASSWORD);
 
         String name = "name";
@@ -71,12 +76,55 @@ public class AnnotationRoundTripTest extends IntegrationTestBase {
         p.addProperty(key, value);
 
         UUID projectUuid = p.getUuid();
-        ctx.getProjectRepository().clear();
 
-        Project actual = (Project) ctx.getObjectWithUuid(projectUuid);
+        DataContext verifyContext = dsc.getContext(USER_UUID, PASSWORD);
+        Project actual = (Project) verifyContext.getObjectWithUuid(projectUuid);
 
-        assertEquals(value, actual.getUserProperty(ctx.getAuthenticatedUser(), key));
-        assertEquals(value, actual.getProperty(key).get(ctx.getAuthenticatedUser()));
+        assertEquals(value, actual.getUserProperty(verifyContext.getAuthenticatedUser(), key));
+        assertEquals(value, actual.getProperty(key).get(verifyContext.getAuthenticatedUser()));
+    }
+
+    /**
+     * As an authenticated user, given multiple annotatable entities, when I add a property, the property should be
+     * persisted, and retrievable by my user.
+     */
+    @Test
+    public void should_add_properties_distinguishing_entities() throws InterruptedException
+    {
+        DataContext ctx = dsc.getContext();
+        ctx.authenticateUser(USER_NAME, PASSWORD);
+
+        String name = "name";
+        String purpose = "purpose";
+        DateTime start = new DateTime();
+        Project p = ctx.insertProject(name, purpose, start);
+        Project p2 = ctx.insertProject(name, purpose, start);
+
+
+        String key1 = "key";
+        String value1 = "value";
+
+        String key2 = "key2";
+        int value2 = 10;
+
+        p.addProperty(key1, value1);
+        p2.addProperty(key2, value2);
+
+
+        UUID projectUuid = p.getUuid();
+        UUID project2Uuid = p2.getUuid();
+
+
+        DataContext verifyContext = dsc.getContext(USER_UUID, PASSWORD);
+        Project actual1 = (Project) verifyContext.getObjectWithUuid(projectUuid);
+
+        assertEquals(value1, actual1.getUserProperty(verifyContext.getAuthenticatedUser(), key1));
+        assertEquals(value1, actual1.getProperty(key1).get(ctx.getAuthenticatedUser()));
+
+        Project actual2 = (Project) verifyContext.getObjectWithUuid(project2Uuid);
+
+        assertEquals(value2, actual2.getUserProperty(verifyContext.getAuthenticatedUser(), key2));
+        assertEquals(value2, actual2.getProperty(key2).get(ctx.getAuthenticatedUser()));
     }
 
     /**
@@ -84,7 +132,8 @@ public class AnnotationRoundTripTest extends IntegrationTestBase {
      * and retrievable by name.
      */
     @Test
-    public void should_add_resource() throws URISyntaxException {
+    public void should_add_resource() throws URISyntaxException
+    {
         DataContext ctx = dsc.getContext(USER_UUID, PASSWORD);
 
         String name = "name";
@@ -99,9 +148,9 @@ public class AnnotationRoundTripTest extends IntegrationTestBase {
         p.addResource(rsrcName, rsrcUri, uti);
 
         UUID projectUuid = p.getUuid();
-        ctx.getProjectRepository().clear();
 
-        Project actual = (Project) ctx.getObjectWithUuid(projectUuid);
+        DataContext verifyContext = dsc.getContext(USER_UUID, PASSWORD);
+        Project actual = (Project) verifyContext.getObjectWithUuid(projectUuid);
         Resource r = actual.getResource(rsrcName);
 
         assertThat(actual.getResourceNames(), hasItem(rsrcName));
